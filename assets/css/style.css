@@ -45,7 +45,9 @@ h3.group-title{font-size:1.2rem;margin:40px 0 16px;color:var(--sky-dark);text-al
 .awards small{display:block;font-weight:400;color:var(--muted)}
 .feature{max-width:760px;margin:0 auto;text-align:center}
 .feature img{height:auto;border-radius:14px;margin:0 auto 12px;box-shadow:0 6px 20px rgba(0,0,0,.08)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:20px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+@media (max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.grid{grid-template-columns:1fr}}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:transform .15s,box-shadow .15s}
 a.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.08)}
 .card img{width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;background:var(--soft)}
