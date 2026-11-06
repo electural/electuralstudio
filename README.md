@@ -4,8 +4,7 @@
 
 ## 구성
 - `index.html`: 홈 (ABOUT, ORIGINAL IP, CONTACT)
-- `thumthum/`, `charliemolly/`, `macamellow/`: 캐릭터 페이지 (Wix와 같은 경로)
-- `assets/img/deck/`: 2023 3Q 브랜드덱에서 뽑은 페이지 이미지 (Wix 캐릭터 페이지와 같은 원본)
+- `assets/img/deck/`: 2023 3Q 브랜드덱에서 뽑은 페이지 이미지 
 - `404.html`: 없는 주소용 페이지
 
 ## 남은 일
@@ -16,7 +15,6 @@
 Static copy of the former Wix site (https://electural.wixsite.com/electural). Plain HTML/CSS, no build step.
 
 - `index.html`: home (ABOUT, ORIGINAL IP, CONTACT)
-- `thumthum/`, `charliemolly/`, `macamellow/`: character pages (same paths as on Wix)
-- `assets/img/deck/`: pages from the 2023 3Q brand deck (same source as the Wix character pages)
+- `assets/img/deck/`: pages from the 2023 3Q brand deck
 - Four images (Haesom Adventures, LaBong, Dumbbit, SamGyeTang) still load from Wix. Run `bash tools/download_wix_images.sh` before closing the Wix site.
 - Custom domain: Settings → Pages → Custom domain.

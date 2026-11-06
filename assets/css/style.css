@@ -12,22 +12,14 @@ a{color:var(--sky-dark)}
 .brand img{height:34px;width:auto}
 .brand span{font-size:.72rem;letter-spacing:.22em;font-weight:800;opacity:.95}
 .nav{display:flex;gap:4px;align-items:center;flex-wrap:wrap}
-.nav a,.nav summary{color:#fff;text-decoration:none;font-weight:800;font-size:.86rem;letter-spacing:.06em;padding:8px 10px;border-radius:8px;cursor:pointer;list-style:none}
-.nav summary::-webkit-details-marker{display:none}
-.nav a:hover,.nav summary:hover,.nav a[aria-current=page]{background:rgba(255,255,255,.22)}
-.nav details{position:relative}
-.nav details[open] .dropdown{display:flex}
-.dropdown{display:none;flex-direction:column;position:absolute;right:0;top:100%;margin-top:6px;background:#fff;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);padding:6px;min-width:170px}
-.dropdown a{color:var(--ink);letter-spacing:0}
-.dropdown a:hover,.dropdown a[aria-current=page]{background:var(--soft)}
+.nav a{color:#fff;text-decoration:none;font-weight:800;font-size:.86rem;letter-spacing:.06em;padding:8px 10px;border-radius:8px;cursor:pointer;list-style:none}
+.nav a:hover,.nav a[aria-current=page]{background:rgba(255,255,255,.22)}
 .menu-btn{display:none;background:none;border:0;color:#fff;font-size:1.6rem;cursor:pointer;padding:6px}
 @media (max-width:720px){
  .menu-btn{display:block}
  .nav{display:none;position:absolute;left:0;right:0;top:64px;background:var(--sky);flex-direction:column;align-items:stretch;padding:8px 16px 16px}
  .nav.open{display:flex}
- .dropdown{position:static;box-shadow:none;background:rgba(255,255,255,.15);margin:0}
- .dropdown a{color:#fff}
- .brand span{display:none}
+  .brand span{display:none}
 }
 /* hero */
 .hero{position:relative;background:url(../img/hero.jpg) center/cover no-repeat;min-height:340px;display:flex;align-items:center}
@@ -61,10 +53,6 @@ a.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.08)}
 .contact dt{font-weight:800;color:var(--muted)}
 .contact dd{margin:0}
 /* gallery pages */
-.page-head{background:var(--sky);color:#fff;text-align:center;padding:40px 16px}
-.page-head h1{margin:0;font-size:clamp(1.8rem,6vw,2.8rem);letter-spacing:.04em}
-.gallery{display:grid;gap:24px;max-width:820px;margin:0 auto}
-.gallery img{width:100%;height:auto;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,.08)}
 .back{display:inline-block;margin-top:24px;font-weight:800;text-decoration:none}
 /* footer */
 .site-footer{background:var(--ink);color:#cfd6df;text-align:center;padding:24px 16px;font-size:.88rem}
